@@ -1,6 +1,5 @@
 
 export default {
-  mode: 'universal',
   ssr: false,
   /*
   ** Headers of the page
@@ -46,6 +45,9 @@ export default {
   /*
   ** Build configuration
   */
+ router: {
+   base: '/curtains/',
+ },
   build: {
     /*
     ** You can extend webpack config here
