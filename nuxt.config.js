@@ -1,6 +1,7 @@
 
 export default {
   ssr: false,
+  target: 'server',
   /*
   ** Headers of the page
   */
@@ -46,7 +47,7 @@ export default {
   ** Build configuration
   */
  router: {
-   base: '/curtains/',
+  //  base: '/curtains/',
  },
   build: {
     /*
